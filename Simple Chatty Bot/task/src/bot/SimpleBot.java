@@ -18,6 +18,9 @@ public class SimpleBot {
         System.out.println("Enter remainders of dividing your age by 3, 5 and 7.");
 
         // reading all remainders
+        int rem3 = scanner.nextInt();
+        int rem5 = scanner.nextInt();
+        int rem7 = scanner.nextInt();
 
         System.out.println("Your age is {yourAge}; that's a good time to start programming!");
     }
